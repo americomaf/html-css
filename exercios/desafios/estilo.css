@@ -1,0 +1,16 @@
+       @charset "UTF-8";
+             
+       body{
+            background-color: rgb(8, 0, 0);
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        div{
+            align-items: center;
+            text-align: center;
+        }
+ 
