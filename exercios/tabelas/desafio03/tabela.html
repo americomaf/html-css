@@ -17,9 +17,12 @@
             padding: 10px;
         }
         caption{
-            background-color: lightgray;
+            background-color: azure;
             padding: 10px;
             font-weight: bold;
+        }
+        .destaque{
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -29,14 +32,14 @@
         <caption>Tabela de Classificação</caption>
         <thead>
             <tr>
-                <th scope="rowgroup" rowspan="2">Area</th>
-                <th scope="colgroup" rowspan="2">Disciplina</th>
-                <th scope="colgroup" colspan="2">Notas</th>
-                <th scope="colgroup" rowspan="2">Média</th>
+                <th scope="rowgroup" rowspan="2" class="destaque">Area</th>
+                <th scope="colgroup" rowspan="2" class="destaque">Disciplina</th>
+                <th scope="colgroup" colspan="2" class="destaque">Notas</th>
+                <th scope="colgroup" rowspan="2" class="destaque">Média</th>
             </tr>
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th class="destaque">Nota 1</th>
+                <th class="destaque">Nota 2</th>
             </tr>
             <tr>
                 <th scope="rowgroup" rowspan="5">Exacta</th>
@@ -66,11 +69,11 @@
                 <td>18.87</td>
             </tr>
             <tr>
-                <th scope="row" colspan="4">Média de Exacta</th>
-                <td>17.59</td>
+                <th scope="row" colspan="4" class="destaque">Média de Exacta</th>
+                <td class="destaque">17.59</td>
             </tr>
             <tr>
-                <th scope="rowgroup" rowspan="3">Humanas</th>
+                <th scope="rowgroup" rowspan="3" >Humanas</th>
             </tr>
             <tr>
                 <td>Históris</td>
@@ -85,8 +88,8 @@
                 <td>17.37</td>
             </tr>
             <tr>
-                <th scope="row" colspan="4">Média de Humanas</th>
-                <td>17.37</td>
+                <th scope="row" colspan="4" class="destaque">Média de Humanas</th>
+                <td class="destaque">17.37</td>
             </tr>
             
         </thead>
