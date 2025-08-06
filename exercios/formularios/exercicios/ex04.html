@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iprov">Províncias</label>
+            <select name="provincia" id="iprov">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Sul">
+                    <option value="MPT">Maputo</option>
+                    <option value="GZ">Gaza</option>
+                    <option value="INH">Inhambane</option>
+                </optgroup>
+                <optgroup label="Centro">
+                    <option value="SF">Sofala</option>
+                    <option value="MN">Manica</option>
+                    <option value="TT">Tete</option>
+                </optgroup>
+                <optgroup label="Centro">
+                    <option value="NS">Niassa</option>
+                    <option value="ZB">Zambézia</option>
+                    <option value="NP">Nampula</option>
+                    <option value="cb">Cabo Delegado</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option>Professor</option>
+                <option>Desenvolvidor</option>
+                <option>Contabilista</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="dexei aqui a sua mensageme"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
